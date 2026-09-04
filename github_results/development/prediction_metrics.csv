@@ -1,0 +1,9 @@
+analysis_set,signal,signal_role,n_cases,n_incorrect,incorrect_rate,auroc,aurc
+bioasq_train,evidence_uncertainty,primary,973,123,0.1264131551901336,0.5861119081779054,0.1013447914215404
+bioasq_train,answer_uncertainty,primary,973,123,0.1264131551901336,0.5152749880439981,0.12304163213099635
+bioasq_train,combined_uncertainty,primary,973,123,0.1264131551901336,0.5869918699186992,0.10063980131790118
+bioasq_train,answer_pairwise_distance,companion,973,123,0.1264131551901336,0.609426111908178,0.09775074145268443
+archehr_train,evidence_uncertainty,primary,20,11,0.55,0.45959595959595967,0.5746248374518499
+archehr_train,answer_uncertainty,primary,20,11,0.55,0.4191919191919192,0.6057682313816215
+archehr_train,combined_uncertainty,primary,20,11,0.55,0.398989898989899,0.6112540853968873
+archehr_train,answer_pairwise_distance,companion,20,11,0.55,0.48484848484848486,0.5747427291061192

@@ -18,48 +18,7 @@ __MACOSX/
 *.slurm
 *.tar.gz
 
-# ------------------------------------------------------------------
-# Pipeline outputs
-# Ignore generated outputs by default, then keep only the compact
-# summary files included with the dissertation repository.
-# ------------------------------------------------------------------
-
-/outputs/evidence_selection/*
-!/outputs/evidence_selection/full/
-/outputs/evidence_selection/full/*
-!/outputs/evidence_selection/full/evidence_summary.csv
-
-/outputs/answer_generation/*
-!/outputs/answer_generation/full/
-/outputs/answer_generation/full/*
-!/outputs/answer_generation/full/answer_summary.csv
-!/outputs/answer_generation/full/threshold_sensitivity.csv
-
-/outputs/combined_analysis/*
-!/outputs/combined_analysis/full/
-/outputs/combined_analysis/full/*
-!/outputs/combined_analysis/full/correlations.csv
-!/outputs/combined_analysis/full/prediction_metrics.csv
-!/outputs/combined_analysis/full/joint_profile_summary.csv
-!/outputs/combined_analysis/full/risk_coverage.csv
-!/outputs/combined_analysis/full/selective_review.csv
-!/outputs/combined_analysis/full/bootstrap_metrics.csv
-!/outputs/combined_analysis/full/bootstrap_comparisons.csv
-!/outputs/combined_analysis/full/judge_run_metadata.json
-
-/outputs/archehr_heldout/*
-!/outputs/archehr_heldout/evidence_summary.csv
-!/outputs/archehr_heldout/answer_summary.csv
-!/outputs/archehr_heldout/threshold_sensitivity.csv
-!/outputs/archehr_heldout/correlations.csv
-!/outputs/archehr_heldout/prediction_metrics.csv
-!/outputs/archehr_heldout/joint_profile_summary.csv
-!/outputs/archehr_heldout/risk_coverage.csv
-!/outputs/archehr_heldout/selective_review.csv
-!/outputs/archehr_heldout/bootstrap_metrics.csv
-!/outputs/archehr_heldout/bootstrap_comparisons.csv
-
-# Explicitly keep raw/case-text outputs out of the public repository
+# Raw and case-level outputs that should not be public
 **/evidence_runs.jsonl
 **/answer_runs.jsonl
 **/answer_runs_with_clusters.csv
@@ -67,3 +26,10 @@ __MACOSX/
 **/judge_inputs.jsonl
 **/case_analysis.csv
 **/manual_judge_review.csv
+
+# Keep local pipeline outputs out of Git
+/outputs/
+
+# Keep the curated public result folder
+!/github_results/
+!/github_results/**

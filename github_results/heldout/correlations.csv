@@ -1,0 +1,8 @@
+analysis_set,relationship,n,spearman_rho,p_value
+archehr_test,evidence_vs_answer_uncertainty,100,0.1960076595875434,0.05064965911662711
+archehr_test,evidence_uncertainty_vs_answer_error,100,0.22331477048988707,0.02552550793404698
+archehr_test,answer_uncertainty_vs_answer_error,100,0.15751747236151115,0.11754568326051207
+archehr_test,combined_uncertainty_vs_answer_error,100,0.2558627197530587,0.010188095847054069
+archehr_test,pairwise_distance_vs_answer_error,100,0.0929757389838071,0.3575398347729218
+archehr_test,evidence_uncertainty_vs_evidence_recall,0,,
+archehr_test,evidence_uncertainty_vs_evidence_f1,0,,

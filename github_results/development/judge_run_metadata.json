@@ -1,0 +1,32 @@
+{
+  "analysis_counts": {
+    "archehr_train": 20,
+    "bioasq_train": 973
+  },
+  "completed_count": 993,
+  "completed_utc": "2026-08-17T04:20:24.825253+00:00",
+  "created_utc": "2026-08-16T16:02:59.040589+00:00",
+  "do_sample": false,
+  "dtype": "bfloat16",
+  "input_sha256": "47ad6ee1872f019975b68c8b93e2507bff4a64b84d1ef5b311962083aad10a36",
+  "judge_backend": "transformers_native_tp2",
+  "judge_model": "meta-llama/Llama-3.3-70B-Instruct",
+  "last_case": {
+    "analysis_set": "archehr_train",
+    "case_id": "archehr_6"
+  },
+  "last_update_utc": "2026-08-17T04:18:08.268338+00:00",
+  "max_context": 8192,
+  "max_new_tokens": 128,
+  "model_load_seconds": 15.002901077270508,
+  "n_inputs": 993,
+  "prompt_tokens_max": 6024,
+  "prompt_tokens_median": 324.0,
+  "prompt_tokens_min": 178,
+  "prompt_tokens_p95": 891.7999999999998,
+  "schema_version": 1,
+  "started_utc": "2026-08-16T22:04:43.919235+00:00",
+  "status": "complete",
+  "temperature": 0.0,
+  "tensor_parallel_size": 2
+}

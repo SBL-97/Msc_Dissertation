@@ -1,0 +1,5 @@
+analysis_set,signal,signal_role,n_cases,n_incorrect,incorrect_rate,auroc,aurc
+archehr_test,evidence_uncertainty,primary,100,59,0.59,0.6209177346010747,0.5152964527569512
+archehr_test,answer_uncertainty,primary,100,59,0.59,0.5828854898718479,0.5433504148421221
+archehr_test,combined_uncertainty,primary,100,59,0.59,0.6471682513435304,0.49210360750632837
+archehr_test,answer_pairwise_distance,companion,100,59,0.59,0.5545680033071517,0.5765011268134853

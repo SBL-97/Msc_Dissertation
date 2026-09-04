@@ -1,0 +1,15 @@
+analysis_set,relationship,n,spearman_rho,p_value
+bioasq_train,evidence_vs_answer_uncertainty,973,0.11720918657099139,0.000248271536823661
+bioasq_train,evidence_uncertainty_vs_answer_error,973,0.10194909154542361,0.0014510208144548906
+bioasq_train,answer_uncertainty_vs_answer_error,973,0.03712865909793615,0.2472468079134986
+bioasq_train,combined_uncertainty_vs_answer_error,973,0.10271147449382081,0.0013354831155861122
+bioasq_train,pairwise_distance_vs_answer_error,973,0.12596840975139925,8.148862277885221e-05
+bioasq_train,evidence_uncertainty_vs_evidence_recall,855,-0.32691368593817033,9.601486685815763e-23
+bioasq_train,evidence_uncertainty_vs_evidence_f1,855,-0.5126870664774311,1.7304012396933094e-58
+archehr_train,evidence_vs_answer_uncertainty,20,0.2015702861544769,0.39410110802988657
+archehr_train,evidence_uncertainty_vs_answer_error,20,-0.07869047019961234,0.7415762086230527
+archehr_train,answer_uncertainty_vs_answer_error,20,-0.15297527632314004,0.5196514130582061
+archehr_train,combined_uncertainty_vs_answer_error,20,-0.18007498082502618,0.44742873159019614
+archehr_train,pairwise_distance_vs_answer_error,20,-0.02614434928080011,0.9128767266442555
+archehr_train,evidence_uncertainty_vs_evidence_recall,20,-0.12038466836638005,0.6131683715680549
+archehr_train,evidence_uncertainty_vs_evidence_f1,20,-0.19775556573071928,0.4032985233581278

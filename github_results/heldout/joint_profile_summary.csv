@@ -1,0 +1,5 @@
+analysis_set,joint_profile,n,correct_n,incorrect_n,error_rate,median_eu,median_au,profile_percent
+archehr_test,Stable–Stable,34,19,15,0.4411764705882353,0.0,-0.0,34.0
+archehr_test,Stable–Variable,19,8,11,0.5789473684210527,0.0,0.2173220112736488,19.0
+archehr_test,Unstable–Stable,24,8,16,0.6666666666666666,0.1496296296296296,-0.0,24.0
+archehr_test,Unstable–Variable,23,6,17,0.7391304347826086,0.1866666666666666,0.3010299956639811,23.0

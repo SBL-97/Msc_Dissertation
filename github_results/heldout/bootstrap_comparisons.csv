@@ -1,0 +1,5 @@
+comparison,metric,point_difference,ci_lower,ci_upper,analysis_set
+combined_minus_evidence,auroc,0.02625051674245571,-0.05560665564282753,0.10831438610996275,archehr_test
+combined_minus_evidence,aurc,-0.023192845250622873,-0.08289741041104884,0.03388137254260162,archehr_test
+combined_minus_answer,auroc,0.06428276147168255,0.0008267879288962332,0.1277387350144688,archehr_test
+combined_minus_answer,aurc,-0.05124680733579373,-0.10259258032189025,-0.0005812965420389157,archehr_test
